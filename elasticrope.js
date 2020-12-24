@@ -22,7 +22,7 @@ class Launcher {
         line(pointA.x, pointA.y, this.pointB.x, this.pointB.y);
     }
 }
-//attach(body){
-   // this.launch.bodyA=body
-//} 
+attach(body){
+    this.launch.bodyA=body
+} 
 }
